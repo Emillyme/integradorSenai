@@ -53,7 +53,7 @@ REST_FRAMEWORK = {
 }
 
 SIMPLE_JWT = {
- 'ACCESS_TOKEN_LIFETIME': timedelta(minutes=15),
+ 'ACCESS_TOKEN_LIFETIME': timedelta(minutes=40),
  # Define o tempo de expiração do token JWT PAdrão é 5 minutos
  'REFRESH_TOKEN_LIFETIME': timedelta(days=7),
  # Define o tempo de expiração do refresh token Padrao é 30 dias
@@ -133,7 +133,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Sao_Paulo'
 
 USE_I18N = True
 
